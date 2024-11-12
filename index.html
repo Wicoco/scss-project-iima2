@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monito</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-nav">
+        <img src="https://next-monito.vercel.app/static/img/logo.svg" alt="Logo" />
+        <div class="header-nav__items">
+            <a href="#">Home</a>
+            <a href="#">Category</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="header-nav__search">
+            <i class="search-icon fas fa-search"></i>
+            <input type="text" placeholder="Search something here!">
+        </div>
+        <button class="button-dark">Login</button>
+      </div>
+
+      <div class="banner">
+        <div class="banner__text">
+          <div class="banner__text__title">One More Friend</div>
+          <div class="banner__text__subtitle">Thousands More Fun!</div>
+          <div class="banner__text__description">
+            Having a pet means you have more joy, a new friend, a happy person
+            who will always be with you to have fun. We have 200+ different pets
+            that can meet your needs!
+          </div>
+          <div class="banner__text__buttons">
+            <button class="button-light">View Intro ►</button>
+            <button class="button-dark">Explore Now</button>
+          </div>
+        </div>
+        <img
+          class="banner__image"
+          src="https://s3-alpha-sig.figma.com/img/035a/16de/8e1aa9a0522d0cebb4144a5ceda0344a?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NMp0ArPurJzqeT~7kQgr5gz~AnKCaVbfxgEsty5HIr8GznBuO0wzBH0qMpLSFd~bo9-EsY-UliR5dX-80kPJahByGksoK86Y1QMmfUionuHMx4yPIzfcVvkVUbzBCxLN9ieoSeqv6dZkpBX0~iIDb6wNiVOR0gBR0bh0xOVFJktyIsSoGRytHjHyL5XtuX9i1y2KSHS~576vR9R7OOCJm6d0-ESe7NhU0m780lGuubxps0OVI664O4zHQDOjEsAB4AupO-kHBlimRxa2hpZXYmsEV6d9xrmywVOI3t34Kv90CZT9x0s9ya3BnKyQKiX1f1fD8UBDPe-b3eRL5S1h2A__"
+          alt=""
+        />
+      </div>
+    </header>
+
+    <main>
+      <div class="display">
+        <div class="display__header">
+          <div class="display__header__title">
+            <p>What's new?</p>
+            <h3>Take A Look At Some Of Our Pets</h3>
+          </div>
+          <button class="button-light">View more ></button>
+        </div>
+        <div class="display__grid">
+          <div class="block">
+            <div class="block__image">
+              <img src="https://s3-alpha-sig.figma.com/img/24e2/536a/e8951f7e58a6a251b78040d254e6a249?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LzIepPdQqwixfK-ir3ma3LEyYbKv8yZO2bnfxvrko-sVsojRplooDSE~tTnt-JCersG5l-G1a2GpQ8Xh8Rk3RNauPVyr19hSF7y~rcRgbvRkdYWcsgm2586yc1C0fB8iFx7vp7FArVD8dwhR6Ry2npSDSt3XNMvSxjxN2E4itp1-ZxW7ZR5yuazHdvq7hW86O~OMUzV5LbL0BazsnZPljHqeWuGqx46q3~rTXTBfv4mIkYmBXex2Qb0BaQPmXicDvteK8KiM3s53ntzbKf4qUIAxKfeVyD4o6Hh4w12hrA-7i96E3Fyc6RdKKtgfGv6wO9njKKP0LZ9XlvcfFDIiSw__"
+                alt="Pomeranian White" />
+            </div>
+            <div class="block__text">
+              <div class="block__title">
+                <p>MO231 - Pomeranian White</p>
+              </div>
+              <div class="block__description">
+                <p>Gene: <b>Male</b></p>
+                <p>•</p>
+                <p>Age: <b>02 months</b></p>
+              </div>
+              <div class="block__price">
+                <p>6.900.000 VND</p>
+              </div>
+            </div>
+          </div>
+                
+          <div class="block">
+            <div class="block__image">
+              <img src="https://s3-alpha-sig.figma.com/img/83bf/ee26/1c595ef8d9ccb544066f9692c48a068b?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=p5dAD1tYRYXG7HimsEMRlBJGIG7FCBrw7SPQ2qdos4lzdx~d~t1aNsnhawZmKYRrEKgcjehvKHZGN9rqkQ4aS73NSmoOcOfqqphNhlgR2ynGIvXbNlBFmNG8JQN8rDmZPdKWHWZ4nPUny~Brs~-TWiWIpMfkL4frbOa-AN86O5ERyukKnNoSrrMixbuXXpuvd~A3aW49-OunBYLZdEdmsfIirwaFCKQaTC3zhIcW3XenydL3YIWNgGl193Nc6MrK8Ken8AsbM4HGYpaWNvNlJ2yeLDsLyVk2HsPqrWhMXZ01UL3KGPUbexLvBFKGzzvAeq4XJ4VdZmE4QY19YVNOMw__"
+                alt="Pembroke Corgi Cream" />
+            </div>
+            <div class="block__text">
+              <div class="block__title">
+                <p>MO231 - Pembroke Corgi Cream</p>
+              </div>
+              <div class="block__description">
+                <p>Gene: <b>Male</b></p>
+                <p>•</p>
+                <p>Age: <b>03 months</b></p>
+              </div>
+              <div class="block__price">
+                <p>7.900.000 VND</p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="block">
+            <div class="block__image">
+              <img src="https://s3-alpha-sig.figma.com/img/865c/fc8b/e8becb4c33e3be0be27489c8df8ffe0f?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=p1Rzhk~gTK2F7v1cPJsXKgJGeTJmaMlaMrCINs8Z8XKJ2tRCCTJ3z~PxlCMBwO-Ef~Z5KvnEHQV9F5Q74AR~6TQs6vfriXBVIZ3dNUU~uaP4so4x4lbA1yZrfLBTxkCEz9Q~H5fSGwCzl2yRB8FAhgTmnrHUk3rAa91RvYaxyRMwGwEiUSw6jXtLAKGHUxcsTX17LzbPp1-9cVzXoLW~HLVW1xv4T~tzZ9-tqpnKt5DrRe6QqA5-OYRC1T3feMT3WuygVoSKbHGkFujJLKlOfNyduL5HrLj97hRJ70ATchn6yZFwZPDzcHAB7xwODtRih0quuQAFKR7ilSocIqTsWg__"
+                alt="Pembroke Corgi Tricolor" />
+            </div>
+            <div class="block__text">
+              <div class="block__title">
+                <p>MO502 - Pembroke Corgi Tricolor</p>
+              </div>
+              <div class="block__description">
+                <p>Gene: <b>Female</b></p>
+                <p>•</p>
+                <p>Age: <b>02 months</b></p>
+              </div>
+              <div class="block__price">
+                <p>9.000.000 VND</p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="block">
+            <div class="block__image">
+              <img src="https://s3-alpha-sig.figma.com/img/d36f/9b5a/36ff33370c382f781520c0e462642d58?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RKtZL8HS6JZ38dBoGQ8-sCl6ElDvzhtKZI7skQPV5-~FuKrbYM6qUi~4it~dBYaHfpgh6GESqq4Or~zAFfc3cEMKxCGxg2wUQOzdWNdifwoNrD9U-w8M7ItcCGO3Jfu62D8Agh4S6D2asUB02N7fMtZXZiRsf7AuhwObVhQ52QFOhX2vIR0PeMGrK81hsn-R~Yj4pHCZ6h9A5HzFzS4LdLq99P7IS-o1-kR1--El1hT7SBgp-oUOx~OimeXuQIuObEkrKlyI8O8XuZ1nsJPq~idDV5L4UN4NbjPlfE2WMNUVL0fc1x1d7mPnwbRzW4WAzW6OZwfwKwkU4gYu~TEzBQ__"
+                alt="Pomeranian Grey" />
+            </div>
+            <div class="block__text">
+              <div class="block__title">
+                <p>MO102 - Pomeranian Grey</p>
+              </div>
+              <div class="block__description">
+                <p>Gene: <b>Female</b></p>
+                <p>•</p>
+                <p>Age: <b>02 months</b></p>
+              </div>
+              <div class="block__price">
+                <p>6.500.000 VND</p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="block">
+            <div class="block__image">
+              <img src="https://s3-alpha-sig.figma.com/img/3914/ac40/41489c742055122b18baafc268372fe5?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=aRZEYKNWUxkctP03VrpV7AqbMPfxIBHG1Oldk4FmoFTdubETb-woen2eZwjJH8PxpOo62kFKZH7A-BnkkGIRigKdgePXqXa08IDonBYMpA87XVY38tt4n8IL88i3U7kk~LhmJ0jsFkC2Jj3NCD5CniUug~KGTJAVMS3sruLa6w8iLiOvJTQJrX5oAIdxSx5BkabIFwcOPSmbHEH63up-BsDP53UPBb70oS4n3g76mJg6lMQhRUWTs6zSb9ZHWcbcM3Pomni984~ZWzrBiNWxLIBQQYeKMs35gT8xnfNDtQV0nlgFzJyHikjNdnrBsJTrgC7Xct~HTqdhYUZZgAY2QA__"
+                alt="Poodle Tiny Dairy Cow" />
+            </div>
+            <div class="block__text">
+              <div class="block__title">
+                <p>MO512 - Poodle Tiny Dairy Cow</p>
+              </div>
+              <div class="block__description">
+                <p>Gene: <b>Male</b></p>
+                <p>•</p>
+                <p>Age: <b>03 months</b></p>
+              </div>
+              <div class="block__price">
+                <p>5.000.000 VND</p>
+              </div>
+            </div>
+          </div>
+        </div>  
+
+      <div class="banner">
+        <img
+          class="banner__image"
+          src="https://s3-alpha-sig.figma.com/img/cc4b/2826/12bf9db02e233aa64a34946d9a9aed4d?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ah~9nX706mpe2vECOI7B4~wzXG7dzxRHob4zCpRPSilOGinbmgP5TnHfopcxp5I~cYjsVDpDoYXrlZtwAM7BiFGjjM92nv8SvDTjKZ8wJc0hwJBc3iV9FOyFhpz7e2ySpitmW81d3JhbgIDg-iozAUmHkgGeD2RbPapDyxCm-Y3MmRsIorD8Mhb-qT1yOhpc7fIMd8Movdat-sLnO5qPcU82mxPE5tENuIoAHL~afXIVL7ybuvHQjK6Ig4vsOv5XvyeYa7bEyHoYBBqB1zkJyxd5tIBQOgoFxHNMH0JTPvFN5giNaV8Xo~EUleXX6URLoGCBX0uEmkdyKmJwSvjKfw__"
+          alt=""
+        />
+        <div class="banner__text">
+          <div class="banner__text__title">One More Friend</div>
+          <div class="banner__text__subtitle">Thousands More Fun!</div>
+          <div class="banner__text__description">
+            Having a pet means you have more joy, a new friend, a happy person
+            who will always be with you to have fun. We have 200+ different pets
+            that can meet your needs!
+          </div>
+          <div class="banner__text__buttons">
+            <button class="button-light">View Intro ►</button>
+            <button class="button-dark">Explore Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="display">
+        <div class="display__header">
+          <div class="display__header__title">
+            <p>You already know ?</p>
+            <h3>Useful Pet Knowledge</h3>
+          </div>
+          <button class="button-light">View more ></button>
+        </div>
+        <div class="display__grid">
+          <div class="bigger-block">
+            <div class="bigger-block__image">
+              <img
+                src="https://s3-alpha-sig.figma.com/img/164b/8551/c113c74555b6aeaec9a5b979c2ee53d4?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qUA29CjOj9DJpfHoG1fYxyk~yZMI8RLi-obRPYG~axsWhs46gIsA~T2fjtU-AzZuCbZLOkmYpY9glsQQ3QVmJKpEiIE14spubTOn8FB3alJ2~CueCUCfXTGCv38sjG4j-y~aKzs87w7eWkoM2gahkfmRCa2s7NjntzdZrsakccjSB-CVxz7B3rhY9Fu0GyRhljjIFjFhbG~wkdwCFuOoFoEALWbfW35OvcSeeXNQqrVQ9BAqT2lh7jrQJtYJuDnqBQboJ1yaDM651RZN3vMqyCjA4EMhwpuSmIPAKp0D9omD8kFgVhyz5jzwC0QK6tGZtBy7rhnSoMh9XlsyhWEqCw__"
+                alt=""
+              />
+            </div>
+            <div class="bigger-block__tag">Pet knowledge</div>
+            <div class="bigger-block__title">
+              What is a Pomeranian? How to Identify Pomeranian Dogs
+            </div>
+            <div class="bigger-block__description">
+              The Pomeranian, also known as the Pomeranian (Pom dog), is always
+              in the top of the cutest pets. Not only that, the small, lovely,
+              smart, friendly, and skillful circus dog breed.
+            </div>
+          </div>
+
+          <div class="bigger-block">
+            <div class="bigger-block__image">
+              <img
+                src="https://s3-alpha-sig.figma.com/img/5e97/6f4f/0a476f3dabcbcedb02310d51a05973ad?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YH23Bem1Igi9r7WFFnO9-4w8Z-axbs1eVyaqH9g0OiPRgJJk9Gz3AZyNNCRk5PVxq~4qM7DawN38vJZogxA-EWnEFbDtb9orxyr5SPSTMNmmYZpXhBHuulakZSV4bOeBG3TTkSMnrwV2KsvFlj9MB0WyaZuUgpMukR583n3jx2sfFyS5wK~05qWKPiOXwXrPktcZ6xyfR1yBMFJco7LmPl7iGfgBdTUwEnBIPro7h-ZIIxxYm7oK4VV67VOMnY0HKJ3THhDX7~VUs3PlYppOM5KAlUhOI~1MopO-NBYCzo-~vTptePBgpji5sOQ-MT56L0NBQnDy-Oi4oG5EyjspbQ__"
+                alt=""
+              />
+            </div>
+            <div class="bigger-block__tag">Pet knowledge</div>
+            <div class="bigger-block__title">Dog Diet You Need To Know</div>
+            <div class="bigger-block__description">
+              Dividing a dog's diet may seem simple at first, but there are some
+              rules you should know so that your dog can easily absorb the
+              nutrients in the diet. For those who are just starting to raise
+              dogs, especially newborn puppies with relatively weak resistance.
+            </div>
+          </div>
+
+          <div class="bigger-block">
+            <div class="bigger-block__image">
+              <img
+                src="https://s3-alpha-sig.figma.com/img/9c94/ebaa/40056d6caaf1af31cf6dd3725c34eb7f?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=V~da4-Xhc1mMxKRVNQ3GoUexQfbQhkYRe7CfzVniamtXPfV5k2Z~wONrZA3v~pCttv76f09czVy5Ir6xczaA-b0AX-VVMTQ6vOPNjiVN2~vA5NIen5810HNQzroEShHtnHq469hP08ioTzq265C1cYFvMI36kx3nYuzoy3iURiIoZsIwBXnG55VxnD9Q~6DT2MHaA8R6WLTg~ZpAI-Q2eOqz8Us2tAtTOqy8ZKaMQfca-aJaheowspLj6o1jRK6xL4m3tDrWnt7O6NRrEqgwvWVS2gwJD84ZsAUFI23Vz4L7o7~VDimLNdv3yKXWEYJCkXeq6Fd~sarFm65qZKf59A__"
+                alt=""
+              />
+            </div>
+            <div class="bigger-block__tag">Pet knowledge</div>
+            <div class="bigger-block__title">
+              Why Dogs Bite and Destroy Furniture and How to Prevent It
+              Effectively
+            </div>
+            <div class="bigger-block__description">
+              Dog bites are common during development. However, no one wants to
+              see their furniture or important items being bitten by a dog.
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="newsletter">
+        <div class="newsletter__title">
+          Register now so you don't miss our programs
+        </div>
+        <div class="newsletter__signup">
+          <input type="email" placeholder="Enter your email" />
+          <button>Subscribe Now</button>
+        </div>
+      </div>
+      <div class="nav">
+        <div class="nav__site">
+          <div class="nav__site__items">
+            <a href="#">Home</a>
+            <a href="#">Category</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+        <div class="nav__socials">
+          <div class="nav__socials__items">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="bottom">
+        <p>© 2022 Monito. All rights reserved.</p>
+        <img src="https://next-monito.vercel.app/static/img/logo.svg" alt="Logo" />
+        <div>
+          <p>Terms of Service</p>
+          <p>Privacy Policy</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

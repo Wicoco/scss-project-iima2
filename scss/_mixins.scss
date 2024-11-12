@@ -1,0 +1,49 @@
+@use'variables';
+
+@mixin button-style($type: 'light') {
+  padding: 7.18px 16.76px;
+  border-radius: 34.11px;
+  border: solid 2px;
+  transition: 0.3s;
+
+  &:hover {
+    @if $type == 'light' {
+      color: white;
+      background-color: $highlight-color;
+    } @else if $type == 'dark' {
+      background-color: $highlight-color;
+    }
+  }
+}
+
+
+@mixin banner-base {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  background-color: $primary-color;
+
+  &__text {
+    margin-right: 3em;
+    margin-bottom: 25px;
+
+    &__title {
+      font-size: $font-size-xx-large;
+      font-weight: 800;
+    }
+
+    &__subtitle {
+      font-size: $font-size-x-large;
+      font-weight: 700;
+    }
+
+    &__description {
+      font-size: $font-size-small;
+      font-weight: 500;
+    }
+
+    &__buttons {
+      margin-top: 10px;
+    }
+  }
+}

@@ -1,0 +1,88 @@
+@use'variables';
+@use'mixins';
+
+footer {
+  background-color: $primary-color;
+  padding: 2em 10em;
+
+  .newsletter {
+    margin-top: 15px;
+    background-color: $secondary-color;
+    color: white;
+    border-radius: $border-radius-medium;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+
+    &__title {
+      font-size: $font-size-large;
+      font-weight: 700;
+      line-height: 21.55px;
+      text-transform: capitalize;
+      width: 230px;
+    }
+
+    &__signup {
+      background-color: white;
+      border-radius: $border-radius-small;
+      padding: 7px;
+
+      input {
+        width: 304px;
+        padding: 8.38px 16.76px;
+        border-radius: $border-radius-small;
+        border: solid 0.6px #99a2a5;
+      }
+
+      button {
+        padding: 8.38px 16.76px;
+        border-radius: $border-radius-small;
+        background-color: $secondary-color;
+        color: white;
+        font-size: $font-size-small;
+        font-weight: 500;
+        line-height: 14.36px;
+      }
+    }
+  }
+
+  .nav {
+    font-size: $font-size-small;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+
+    &__site {
+      width: 300px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      a {
+        color: black;
+        text-decoration: none;
+        margin-right: 10px;
+      }
+    }
+
+    &__socials {
+      i {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    p {
+      max-width: 130px;
+      font-size: $font-size-x-small;
+      font-weight: 500;
+    }
+  }
+}
